@@ -1,5 +1,5 @@
 {
-  "last-update": "22-12-2023 21:33",
+  "last-update": "29-12-2023 15:53",
   "Anti Bot": {
     "enabled": true,
     "Hypixel": false,
@@ -16,7 +16,7 @@
     "Only Blocks": false
   },
   "Auto Rod": {
-    "enabled": false
+    "enabled": true
   },
   "Back Track": {
     "enabled": true,
@@ -57,14 +57,14 @@
     "Targets": "Everything",
     "Auto Block": "Fake",
     "Range": 3.0,
-    "Interact Range": 3.67,
+    "Interact Range": 3.7,
     "Rotations": "Normal",
     "Min Yaw Speed": 178.0,
     "Max Yaw Speed": 180.0,
     "Min Pitch Speed": 180.0,
     "Max Pitch Speed": 180.0,
     "Random Center": false,
-    "Jitter": true,
+    "Jitter": false,
     "New Combat": false,
     "CPS Mode": "Advanced",
     "Min CPS": 20.0,
@@ -73,8 +73,8 @@
     "Max Reduce CPS": 20.0,
     "Min Normal CPS": 20.0,
     "Max Normal CPS": 20.0,
-    "Force Hit": true,
-    "Swing In Range": true,
+    "Force Hit": false,
+    "Swing In Range": false,
     "Move Fix": "Legit",
     "Ray Trace": true,
     "Trough Walls": false,
@@ -102,9 +102,9 @@
     "Hold Time": 50.0
   },
   "Timer Range": {
-    "enabled": true,
+    "enabled": false,
     "Min Range": 3.0,
-    "Max Range": 3.69,
+    "Max Range": 3.81,
     "Timer": 10.0,
     "Slow Timer": 0.0,
     "Charge Multiplier": 1.0,
@@ -140,7 +140,10 @@
   "Flight": {
     "enabled": false,
     "Mode": "Vanilla",
-    "Speed": 0.84
+    "Speed": 0.1
+  },
+  "Ice Speed": {
+    "enabled": false
   },
   "Inv Move": {
     "enabled": false
@@ -153,7 +156,7 @@
   },
   "Long Jump": {
     "enabled": false,
-    "Mode": "Intave Boat"
+    "Mode": "Intave"
   },
   "No Fall": {
     "enabled": true,
@@ -178,13 +181,13 @@
     "enabled": false,
     "Mode": "Intave",
     "Speed": 0.1,
-    "Intave Strafe Ticks": 2.0,
+    "Intave Strafe Delay": 6.0,
     "Intave Offset": 0.05,
     "Intave Min Speed": 0.25,
     "Timer": 1.0,
-    "Intave Smart": false,
-    "Intave Smart Safe": false,
-    "Intave Smart Delay": 0.0,
+    "Intave Smart": true,
+    "Intave Smart Safe": true,
+    "Intave Smart Delay": 3.0,
     "Vulcan Fast": false
   },
   "Sprint": {
@@ -265,7 +268,9 @@
     "Mode": "Windowed"
   },
   "Friends": {
-    "enabled": true
+    "enabled": true,
+    "Mid click add": true,
+    "Range": 5.0
   },
   "Notifications": {
     "enabled": false
@@ -377,7 +382,7 @@
     "enabled": true
   },
   "Auto Weapon": {
-    "enabled": true
+    "enabled": false
   },
   "Crasher": {
     "enabled": false,
@@ -391,7 +396,8 @@
     "Click Window": true,
     "Block Placement": true,
     "Custom Payload": false,
-    "Creative Inventory Action": false
+    "Creative Inventory Action": false,
+    "Auto Disable": false
   },
   "Disabler": {
     "enabled": false,
@@ -692,7 +698,7 @@
   "Shader ESP": {
     "enabled": true,
     "Radius": 15.0,
-    "Sensitivity": 2.0,
+    "Sensitivity": 1.0,
     "Mode": "Glow",
     "Color": {
       "Main color": -428280,
@@ -812,5 +818,9 @@
   },
   "Murder Finder": {
     "enabled": false
+  },
+  "Reverse Friends": {
+    "enabled": false,
+    "Range": 5.0
   }
 }
