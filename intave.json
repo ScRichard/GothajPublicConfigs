@@ -1,5 +1,5 @@
 {
-  "last-update": "29-12-2023 15:53",
+  "last-update": "13-01-2024 11:07",
   "Anti Bot": {
     "enabled": true,
     "Hypixel": false,
@@ -16,11 +16,11 @@
     "Only Blocks": false
   },
   "Auto Rod": {
-    "enabled": true
+    "enabled": false
   },
   "Back Track": {
     "enabled": true,
-    "Delay": 280.0,
+    "Delay": 400.0,
     "Hit Range": 6.0,
     "Only If Need": true,
     "ESP": true,
@@ -57,9 +57,9 @@
     "Targets": "Everything",
     "Auto Block": "Fake",
     "Range": 3.0,
-    "Interact Range": 3.7,
+    "Interact Range": 3.81,
     "Rotations": "Normal",
-    "Min Yaw Speed": 178.0,
+    "Min Yaw Speed": 180.0,
     "Max Yaw Speed": 180.0,
     "Min Pitch Speed": 180.0,
     "Max Pitch Speed": 180.0,
@@ -67,19 +67,20 @@
     "Jitter": false,
     "New Combat": false,
     "CPS Mode": "Advanced",
-    "Min CPS": 20.0,
-    "Max CPS": 20.0,
+    "Min CPS": 18.0,
+    "Max CPS": 18.0,
     "Min Reduce CPS": 20.0,
     "Max Reduce CPS": 20.0,
     "Min Normal CPS": 20.0,
     "Max Normal CPS": 20.0,
     "Force Hit": false,
     "Swing In Range": false,
-    "Move Fix": "Legit",
+    "Move Fix": "Silent",
     "Ray Trace": true,
     "Trough Walls": false,
     "Switch": true,
     "Switch Delay": 192.0,
+    "Fov": 360.0,
     "Disable on Death": true,
     "Closed Inventory": true,
     "Attack Invisible": true,
@@ -102,14 +103,14 @@
     "Hold Time": 50.0
   },
   "Timer Range": {
-    "enabled": false,
+    "enabled": true,
     "Min Range": 3.0,
     "Max Range": 3.81,
     "Timer": 10.0,
     "Slow Timer": 0.0,
     "Charge Multiplier": 1.0,
     "Delay": 0.0,
-    "Instant Timer": true,
+    "Instant Teleport": true,
     "Not In Combo": false,
     "Only Forward": true,
     "Pre Load": false,
@@ -122,10 +123,6 @@
     "Mode": "Intave",
     "Horizontal": 0.0,
     "Vertical": 0.0,
-    "Jump": false,
-    "Vertical Reduce": true,
-    "Intave Reverse": false,
-    "Intave Strong": true,
     "Cancel In Air": false
   },
   "Air Stuck": {
@@ -140,7 +137,7 @@
   "Flight": {
     "enabled": false,
     "Mode": "Vanilla",
-    "Speed": 0.1
+    "Speed": 0.98
   },
   "Ice Speed": {
     "enabled": false
@@ -362,7 +359,7 @@
   "Auto Armor": {
     "enabled": true,
     "Mode": "Open Inv",
-    "Intave": true,
+    "Intave": false,
     "Start Delay": 0.0,
     "Speed": 92.0
   },
@@ -370,9 +367,9 @@
     "enabled": true,
     "Mode": "Open Inv",
     "Intave": true,
-    "Health": 12.0,
+    "Health": 15.0,
     "Head Health": 5.0,
-    "Speed": 300.0,
+    "Speed": 500.0,
     "Soups": true,
     "Instant drop": false,
     "Potions": true,
@@ -382,7 +379,7 @@
     "enabled": true
   },
   "Auto Weapon": {
-    "enabled": false
+    "enabled": true
   },
   "Crasher": {
     "enabled": false,
@@ -403,9 +400,9 @@
     "enabled": false,
     "Mode": "Intave",
     "Expand Scaffold": true,
-    "Intave Reach": false,
+    "Intave Reach": true,
     "Intave Reach Strong": false,
-    "Auto Aura": false
+    "Auto Aura": true
   },
   "Anti Fire": {
     "enabled": true
@@ -416,7 +413,7 @@
     "Intave": true,
     "Throw Garbage": true,
     "Start Delay": 0.0,
-    "Speed": 83.0,
+    "Speed": 100.0,
     "Sword": true,
     "sword Slot": 1.0,
     "Axe": true,
@@ -449,6 +446,7 @@
     "enabled": false,
     "Rotations": "Intave",
     "Sprint": "Off ground speed",
+    "Sprint when jump": true,
     "Tower": "None",
     "Spoof slot": "None",
     "Expand": 0.0,
@@ -457,19 +455,19 @@
     "Godbridge Jump": false,
     "A D Strafe": false,
     "Safe Walk": false,
+    "Drag Click": false,
+    "Swing": false,
+    "Switch Back": false,
     "Sneak when place": false,
     "Sneak": false,
     "Sneak Delay": 9.0,
-    "Sneak Time": 2.0,
-    "Drag Click": false,
-    "Swing": false,
-    "Switch Back": false
+    "Sneak Time": 2.0
   },
   "Smooth Rotation": {
     "enabled": true,
     "Kill Aura": false,
     "Scaffold": true,
-    "Turn Speed": 35.0
+    "Turn Speed": 40.0
   },
   "Spammer": {
     "enabled": false
@@ -696,7 +694,7 @@
     }
   },
   "Shader ESP": {
-    "enabled": true,
+    "enabled": false,
     "Radius": 15.0,
     "Sensitivity": 1.0,
     "Mode": "Glow",
@@ -822,5 +820,11 @@
   "Reverse Friends": {
     "enabled": false,
     "Range": 5.0
+  },
+  "Regen": {
+    "enabled": false,
+    "Mode": "Grim 1.17",
+    "Health": 19.0,
+    "Grim packets": 10.0
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last-update": "23-11-2023 11:54",
+  "last-update": "13-01-2024 11:20",
   "Anti Bot": {
     "enabled": true,
     "Hypixel": false,
@@ -19,75 +19,76 @@
     "enabled": false
   },
   "Back Track": {
-    "enabled": true,
-    "Delay": 130.0,
+    "enabled": false,
+    "Delay": 280.0,
     "Hit Range": 6.0,
     "Only If Need": true,
     "ESP": true,
     "ESP Mode": "Hitbox",
     "Color": {
-      "Main color": -1,
-      "Secondary color": -1,
+      "Main color": -218872,
+      "Secondary color": -16295433,
       "Alpha": 100,
-      "Mode": "Still"
+      "Mode": "Mix"
     },
     "Outline Color": {
-      "Main color": -1,
-      "Secondary color": -1,
+      "Main color": -233976,
+      "Secondary color": -16214276,
       "Alpha": 100,
-      "Mode": "Still"
+      "Mode": "Mix"
     }
   },
   "Bow Aim Bot": {
-    "enabled": true
+    "enabled": false
   },
   "Criticals": {
     "enabled": false,
-    "Mode": "Ground"
+    "Mode": "Vulcan"
   },
   "Delay Fix": {
     "enabled": true
   },
-  "Ennoyer": {
+  "Annoyer": {
     "enabled": false,
-    "Delay": 500.0
+    "Delay": 1000.0
   },
   "Kill Aura": {
     "enabled": false,
     "Targets": "Everything",
-    "Attack Timing": "Normal",
-    "Auto Block": "Fake",
-    "Rotations": "Normal",
-    "Min Yaw Speed": 180.0,
-    "Max Yaw Speed": 180.0,
-    "Min Pitch Speed": 180.0,
-    "Max Pitch Speed": 180.0,
-    "Smooth": false,
-    "Randomize": true,
-    "New Combat": false,
-    "Perfect Hit": false,
-    "Smart Perfect Hit": false,
-    "Legit": true,
-    "Move Fix": "Silent",
-    "Range": 6.0,
+    "Auto Block": "Vanilla",
+    "Range": 5.89,
     "Interact Range": 6.0,
-    "Min CPS": 12.0,
-    "Max CPS": 15.0,
-    "Switch": true,
-    "Ray Trace": false,
-    "Jitter": true,
+    "Rotations": "Legit",
+    "Min Yaw Speed": 123.0,
+    "Max Yaw Speed": 143.0,
+    "Min Pitch Speed": 123.0,
+    "Max Pitch Speed": 145.0,
+    "Random Center": false,
+    "Jitter": false,
+    "New Combat": false,
+    "CPS Mode": "Advanced",
+    "Min CPS": 20.0,
+    "Max CPS": 20.0,
+    "Min Reduce CPS": 10.0,
+    "Max Reduce CPS": 10.0,
+    "Min Normal CPS": 10.0,
+    "Max Normal CPS": 10.0,
+    "Force Hit": true,
+    "Swing In Range": false,
+    "Move Fix": "Off",
+    "Ray Trace": true,
+    "Trough Walls": false,
+    "Switch": false,
     "Switch Delay": 192.0,
+    "Fov": 180.0,
     "Disable on Death": true,
     "Closed Inventory": true,
-    "Trough Walls": false,
     "Attack Invisible": true,
     "Attack Dead": true
   },
   "More KB": {
-    "enabled": true,
-    "Combo": true,
-    "Fast": false,
-    "Only On Ground": false
+    "enabled": false,
+    "Mode": "WTap"
   },
   "No Hit Slow": {
     "enabled": true,
@@ -99,67 +100,63 @@
   },
   "STap": {
     "enabled": false,
-    "Hold Time": 25.0
+    "Hold Time": 50.0
   },
   "Timer Range": {
-    "enabled": true,
+    "enabled": false,
     "Min Range": 3.0,
-    "Max Range": 3.9,
-    "Timer": 6.0,
+    "Max Range": 3.69,
+    "Timer": 10.0,
     "Slow Timer": 0.0,
-    "Charge Multiplier": 0.94,
+    "Charge Multiplier": 1.0,
     "Delay": 0.0,
-    "Instant Timer": false,
+    "Instant Teleport": true,
     "Not In Combo": false,
-    "Only Forward": false,
-    "Pre Load": true,
+    "Only Forward": true,
+    "Pre Load": false,
     "Blink": false,
     "Only On Ground": false,
     "No Fluid": false
   },
   "Velocity": {
     "enabled": true,
-    "Mode": "Intave",
+    "Mode": "Vanilla",
     "Horizontal": 0.0,
     "Vertical": 0.0,
-    "Click Reduce": 0.0,
-    "Burst": false,
-    "Jump": true,
-    "Vertical Reduce": false,
-    "Intave Reverse": false,
-    "Intave Strong": true,
     "Cancel In Air": false
   },
   "Air Stuck": {
     "enabled": false
   },
-  "Blink": {
+  "Lag Range": {
     "enabled": false,
     "Release On Hit": true,
-    "Release When Hurt": false,
-    "Pulse": true,
-    "pulse Delay": 100.0
+    "Release When Hurt": true,
+    "pulse Delay": 150.0
   },
   "Flight": {
     "enabled": false,
-    "Mode": "Vanilla",
-    "Speed": 2.19
+    "Mode": "Verus",
+    "Speed": 0.84
+  },
+  "Ice Speed": {
+    "enabled": false
   },
   "Inv Move": {
     "enabled": false
   },
   "Jesus": {
-    "enabled": true,
+    "enabled": false,
     "Mode": "Intave",
-    "Intave Delay": 3.0,
-    "No Push": true
+    "Intave Delay": 2.0,
+    "No Push": false
   },
   "Long Jump": {
     "enabled": false,
-    "Mode": "Intave Boat"
+    "Mode": "Polar"
   },
   "No Fall": {
-    "enabled": true,
+    "enabled": false,
     "Mode": "Clutch"
   },
   "No Jump Delay": {
@@ -169,10 +166,8 @@
     "enabled": false
   },
   "No Slow": {
-    "enabled": false,
-    "Mode": "Intave speed",
-    "Intave delay": 1.0,
-    "Intave speed": 0.12
+    "enabled": true,
+    "Mode": "Vanilla"
   },
   "No Web": {
     "enabled": true,
@@ -181,17 +176,16 @@
   },
   "Speed": {
     "enabled": false,
-    "Mode": "Intave",
-    "Speed": 0.2,
-    "Intave Strafe Ticks": 1.0,
-    "Intave Offset": 0.07,
+    "Mode": "Verus",
+    "Speed": 0.1,
+    "Intave Strafe Delay": 6.0,
+    "Intave Offset": 0.05,
     "Intave Min Speed": 0.25,
     "Timer": 1.0,
     "Intave Smart": false,
     "Intave Smart Safe": false,
     "Intave Smart Delay": 0.0,
-    "Vulcan Fast": false,
-    "Vulcan Strafe": false
+    "Vulcan Fast": false
   },
   "Sprint": {
     "enabled": true
@@ -199,66 +193,63 @@
   "Timer": {
     "enabled": false,
     "Jump": false,
-    "Timer": 6.1
+    "Timer": 1.7
   },
   "Array List": {
     "enabled": true,
-    "Position X": 1000.0,
-    "Position Y": 3.0,
+    "Position X": 977.0,
+    "Position Y": 25.0,
     "Split Names": true,
     "Text Style": "Normal",
     "Direction": "Right Up",
     "Spacing": 8.0,
     "Center corection": -1.5,
     "Fonts": "rb-m",
-    "Priority": "Medium",
-    "Scale": 1.16,
-    "Rounded": false,
+    "Priority": "Low",
+    "Scale": 1.28,
+    "Rounded": true,
     "Text Color": {
-      "Main color": -7847960,
-      "Secondary color": -10878004,
+      "Main color": -23036,
+      "Secondary color": -16458497,
       "Alpha": 100,
       "Mode": "Mix"
     },
-    "Shadow": true,
+    "Shadow": false,
     "Shadow color": {
-      "Main color": -15592942,
-      "Secondary color": -1,
+      "Main color": -16888,
+      "Secondary color": -16452609,
       "Alpha": 100,
       "Mode": "Static"
     },
     "Suffix": true,
-    "Suffix Mode": "None",
+    "Suffix Mode": "-",
     "Suffix Color": {
-      "Main color": -200464,
-      "Secondary color": -4605511,
+      "Main color": -1,
+      "Secondary color": -262145,
       "Alpha": 100,
       "Mode": "Mix"
     },
     "Blur": true,
-    "Bloom": false,
-    "Bloom same as font": true,
+    "Bloom": true,
     "Bloom Color": {
-      "Main color": -2157291,
-      "Secondary color": -1,
+      "Main color": -23036,
+      "Secondary color": -16201985,
       "Alpha": 100,
-      "Mode": "Rainbow"
+      "Mode": "Mix"
     },
-    "Background same as font": false,
     "Background Color": {
-      "Main color": -15921907,
-      "Secondary color": -132097,
-      "Alpha": 37,
-      "Mode": "Static"
+      "Main color": -16888,
+      "Secondary color": -16190209,
+      "Alpha": 18,
+      "Mode": "Mix"
     },
-    "Outline": true,
+    "Outline": false,
     "Outline size": 100.0,
-    "Outline same as font": true,
     "Outline Color": {
-      "Main color": -62452,
-      "Secondary color": -1,
+      "Main color": -23036,
+      "Secondary color": -16449595,
       "Alpha": 100,
-      "Mode": "Static"
+      "Mode": "Mix"
     },
     "Outline Left": true,
     "Outline Right": true,
@@ -267,49 +258,51 @@
     "Outline Between Bottom": true
   },
   "Booster": {
-    "enabled": true
+    "enabled": false
   },
   "Click Gui": {
     "enabled": false,
-    "Mode": "Dropdown"
+    "Mode": "Windowed"
   },
   "Friends": {
-    "enabled": true
+    "enabled": true,
+    "Mid click add": false,
+    "Range": 5.0
   },
   "Notifications": {
     "enabled": false
   },
   "Scoreboard": {
-    "enabled": true,
-    "Position X": 919.0,
-    "Position Y": 591.0,
-    "Rounded": false,
-    "Blur": false,
-    "Bloom": false,
-    "Bloom same as background": true,
+    "enabled": false,
+    "Position X": 912.0,
+    "Position Y": 672.0,
+    "Rounded": true,
+    "Blur": true,
+    "Bloom": true,
     "Bloom Color": {
-      "Main color": -62452,
-      "Secondary color": -59368,
+      "Main color": -28924,
+      "Secondary color": -15928065,
       "Alpha": 100,
-      "Mode": "Sky"
+      "Mode": "Mix"
     },
     "Background Color": {
-      "Main color": -15922164,
-      "Secondary color": -1,
-      "Alpha": 43,
-      "Mode": "Static"
+      "Main color": -1278947,
+      "Secondary color": -16454452,
+      "Alpha": 22,
+      "Mode": "Mix"
     },
+    "Outline": false,
     "Outline Color": {
-      "Main color": -16777216,
+      "Main color": -16187610,
       "Secondary color": -1,
-      "Alpha": 50,
+      "Alpha": 100,
       "Mode": "Static"
     }
   },
   "Session": {
-    "enabled": true,
-    "Position X": 0.0,
-    "Position Y": 71.0,
+    "enabled": false,
+    "Position X": 30.0,
+    "Position Y": 50.0,
     "Blur": true,
     "Bloom": true,
     "Bloom color": {
@@ -335,28 +328,29 @@
     "enabled": false
   },
   "Watermark": {
-    "enabled": true,
-    "Position X": 2.0,
-    "Position Y": 4.0,
+    "enabled": false,
+    "Position X": 30.0,
+    "Position Y": 50.0,
+    "Mode": "Modern",
     "Blur": true,
     "Bloom": true,
-    "Bloom color": {
-      "Main color": -916476,
-      "Secondary color": -1,
-      "Alpha": 100,
-      "Mode": "Static"
-    },
     "Mark color": {
-      "Main color": -12272388,
-      "Secondary color": -13470224,
+      "Main color": -1,
+      "Secondary color": -26215,
       "Alpha": 100,
       "Mode": "Mix"
     },
     "Background color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
-      "Alpha": 40,
-      "Mode": "Static"
+      "Main color": -23036,
+      "Secondary color": -16190209,
+      "Alpha": 25,
+      "Mode": "Mix"
+    },
+    "Bloom color": {
+      "Main color": -39412,
+      "Secondary color": -16458497,
+      "Alpha": 100,
+      "Mode": "Mix"
     }
   },
   "Track Viewer": {
@@ -367,31 +361,31 @@
     "Mode": "Open Inv",
     "Intave": true,
     "Start Delay": 0.0,
-    "Speed": 0.0
+    "Speed": 92.0
   },
   "Auto Heal": {
     "enabled": true,
     "Mode": "Open Inv",
     "Intave": true,
-    "Health": 7.0,
+    "Health": 12.0,
     "Head Health": 5.0,
-    "Speed": 0.0,
+    "Speed": 300.0,
     "Soups": true,
+    "Instant drop": false,
     "Potions": true,
     "Heads": true
   },
   "Auto Tool": {
-    "enabled": true,
-    "Silent": false
+    "enabled": true
   },
   "Auto Weapon": {
-    "enabled": true
+    "enabled": false
   },
   "Crasher": {
     "enabled": false,
     "Payload Mode": "BSign",
-    "Packet Size": 33.0,
-    "Packets": 101.0,
+    "Packet Size": 50.0,
+    "Packets": 68.0,
     "Unicode Packet": false,
     "Extra Packet": false,
     "Random Packet": false,
@@ -399,17 +393,18 @@
     "Click Window": true,
     "Block Placement": true,
     "Custom Payload": false,
-    "Creative Inventory Action": false
+    "Creative Inventory Action": false,
+    "Auto Disable": false
   },
   "Disabler": {
     "enabled": true,
-    "Mode": "Intave",
+    "Mode": "Verus",
     "Expand Scaffold": true,
     "Intave Reach": false,
     "Intave Reach Strong": false,
     "Auto Aura": false
   },
-  "Extinguish": {
+  "Anti Fire": {
     "enabled": true
   },
   "Inv Manager": {
@@ -418,7 +413,7 @@
     "Intave": true,
     "Throw Garbage": true,
     "Start Delay": 0.0,
-    "Speed": 0.0,
+    "Speed": 83.0,
     "Sword": true,
     "sword Slot": 1.0,
     "Axe": true,
@@ -437,55 +432,66 @@
   },
   "Name Protect": {
     "enabled": false,
+    "Show CL users": false,
     "Name": "\u0026b\u0026lProtected"
   },
   "Ping Spoof": {
-    "enabled": true,
-    "Delay": 200.0
+    "enabled": false,
+    "Delay": 80.0,
+    "Keep alive packet": true,
+    "C0F packet": true,
+    "All packets": true
   },
   "Scaffold": {
     "enabled": false,
-    "Rotations": "Keep",
-    "Sprint": "Off",
-    "Tower": "Timer",
-    "Spoof slot": "Normal",
+    "Rotations": "Intave",
+    "Sprint": "Off ground speed",
+    "Sprint when jump": true,
+    "Tower": "None",
+    "Spoof slot": "None",
     "Expand": 0.0,
     "Move Fix": true,
-    "Jump": false,
+    "Jump": true,
+    "Godbridge Jump": false,
     "A D Strafe": false,
     "Safe Walk": false,
-    "Sneak when place": false,
-    "Sneak": false,
-    "Sneak Delay": 1.0,
-    "Sneak Time": 1.0,
     "Drag Click": false,
     "Swing": false,
-    "Switch Back": false
+    "Switch Back": false,
+    "Sneak when place": false,
+    "Sneak": false,
+    "Sneak Delay": 9.0,
+    "Sneak Time": 2.0
   },
   "Smooth Rotation": {
     "enabled": true,
     "Kill Aura": false,
     "Scaffold": true,
-    "Turn Speed": 60.0
+    "Turn Speed": 35.0
   },
   "Spammer": {
     "enabled": false
   },
   "Stealer": {
     "enabled": false,
-    "Start Delay": 0.0,
-    "Min Delay": 0.0,
-    "Max Delay": 0.0,
-    "Randomize": false,
+    "Start Delay": 100.0,
+    "Min Delay": 50.0,
+    "Max Delay": 50.0,
     "Steal trash items": false,
     "Auto Close": true,
     "Check chest name": false,
-    "Disable on World Change": false
+    "Disable on World Change": true
+  },
+  "Staff Detector": {
+    "enabled": false,
+    "Mode": "QPlay",
+    "Auto HUB": true,
+    "Command": "/lobby"
   },
   "Animations": {
     "enabled": true,
-    "Mode": "Chill",
-    "Only Sword": true,
+    "Mode": "Swong",
+    "Only Sword": false,
     "Skid Swing": true,
     "X": 0.0,
     "Y": 0.0,
@@ -509,7 +515,6 @@
     },
     "Blur": true,
     "Bloom": true,
-    "Bloom same as font": true,
     "Bloom Color": {
       "Main color": -16777216,
       "Secondary color": -1,
@@ -525,14 +530,15 @@
     }
   },
   "ESP3D": {
-    "enabled": false,
+    "enabled": true,
     "Size": 1.0,
+    "Outline Thickness": 1.0,
     "Mode": "Hitbox",
     "Filled": true,
     "Fill Color": {
       "Main color": -1,
       "Secondary color": -1,
-      "Alpha": 50,
+      "Alpha": 1,
       "Mode": "Static"
     },
     "Outline": true,
@@ -555,21 +561,22 @@
       "Mode": "Static"
     },
     "Murder Fill Color": {
-      "Main color": -1,
-      "Secondary color": -1,
+      "Main color": -1309692,
+      "Secondary color": -57569,
       "Alpha": 100,
       "Mode": "Static"
     },
     "Murder Outline Color": {
-      "Main color": -1,
-      "Secondary color": -1,
+      "Main color": -60396,
+      "Secondary color": -3407101,
       "Alpha": 100,
       "Mode": "Static"
     }
   },
   "ESP": {
-    "enabled": true,
+    "enabled": false,
     "Filled": true,
+    "Blur": true,
     "Filled Color": {
       "Main color": -16777216,
       "Secondary color": -1,
@@ -590,18 +597,18 @@
   },
   "Hotbar": {
     "enabled": false,
-    "Mode": "Style 1",
+    "Mode": "Style 2",
     "Text Color": {
-      "Main color": -15066855,
-      "Secondary color": -11252403,
+      "Main color": -1,
+      "Secondary color": -1,
       "Alpha": 100,
       "Mode": "Static"
     },
     "Background Color": {
-      "Main color": -11927038,
-      "Secondary color": -16448251,
-      "Alpha": 81,
-      "Mode": "Rainbow"
+      "Main color": -1,
+      "Secondary color": -1,
+      "Alpha": 100,
+      "Mode": "Static"
     }
   },
   "Hurt Cam": {
@@ -637,66 +644,75 @@
     }
   },
   "Name Tags": {
-    "enabled": true,
-    "Health": true,
+    "enabled": false,
+    "Health": false,
     "Shadow": true
   },
   "Radar": {
     "enabled": false,
-    "Position X": 30.0,
-    "Position Y": 50.0,
-    "Mode": "Rect",
-    "Size": 100.0,
+    "Position X": 31.0,
+    "Position Y": 96.0,
+    "Mode": "Rounded",
+    "Size": 120.0,
     "Background Color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
-      "Alpha": 100,
-      "Mode": "Static"
+      "Main color": -28924,
+      "Secondary color": -16452609,
+      "Alpha": 15,
+      "Mode": "Mix"
     },
     "Player Color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
+      "Main color": -64508,
+      "Secondary color": -63480,
       "Alpha": 100,
-      "Mode": "Static"
+      "Mode": "Mix"
     },
     "Team Color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
+      "Main color": -16187610,
+      "Secondary color": -10748152,
       "Alpha": 100,
-      "Mode": "Static"
+      "Mode": "Mix"
     },
     "Friend Color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
+      "Main color": -13893884,
+      "Secondary color": -12386556,
       "Alpha": 100,
-      "Mode": "Static"
+      "Mode": "Mix"
     },
     "Murder Color": {
-      "Main color": -16777216,
-      "Secondary color": -1,
+      "Main color": -64508,
+      "Secondary color": -61424,
       "Alpha": 100,
-      "Mode": "Static"
+      "Mode": "Mix"
+    },
+    "Blur": true,
+    "Bloom": true,
+    "Bloom color": {
+      "Main color": -34812,
+      "Secondary color": -16452609,
+      "Alpha": 100,
+      "Mode": "Mix"
     }
   },
   "Shader ESP": {
-    "enabled": true,
-    "Radius": 7.0,
+    "enabled": false,
+    "Radius": 15.0,
+    "Sensitivity": 2.0,
     "Mode": "Glow",
     "Color": {
-      "Main color": -1,
-      "Secondary color": -1,
-      "Alpha": 30,
-      "Mode": "Static"
+      "Main color": -428280,
+      "Secondary color": -15409409,
+      "Alpha": 100,
+      "Mode": "Mix"
     }
   },
   "Storage ESP": {
-    "enabled": false,
+    "enabled": true,
     "Mode": "Box",
     "Fill Color": {
-      "Main color": -1,
-      "Secondary color": -1,
-      "Alpha": 100,
-      "Mode": "Static"
+      "Main color": -23036,
+      "Secondary color": -16449572,
+      "Alpha": 25,
+      "Mode": "Mix"
     },
     "Outline 2D": "None",
     "Outline Color": {
@@ -704,7 +720,10 @@
       "Secondary color": -1,
       "Alpha": 100,
       "Mode": "Static"
-    }
+    },
+    "Outline radius": 7.0,
+    "Outline sensitivity": 3.0,
+    "Outline Mode": "Glow"
   },
   "Target ESP": {
     "enabled": false,
@@ -724,27 +743,41 @@
   },
   "Target Hud": {
     "enabled": true,
-    "Position X": 611.0,
-    "Position Y": 657.0,
+    "Position X": 520.0,
+    "Position Y": 465.0,
     "Mode": "Style 1",
     "Follow": false,
     "Image rounding": true,
     "Rounded": true,
+    "Text color": {
+      "Main color": -22520,
+      "Secondary color": -16464385,
+      "Alpha": 50,
+      "Mode": "Mix"
+    },
     "Background color": {
-      "Main color": -62452,
-      "Secondary color": -1,
-      "Alpha": 56,
+      "Main color": -28408,
+      "Secondary color": -16449549,
+      "Alpha": 28,
       "Mode": "Mix"
     },
     "Health color": {
-      "Main color": -65536,
-      "Secondary color": -1,
-      "Alpha": 50,
+      "Main color": -64508,
+      "Secondary color": -16449595,
+      "Alpha": 100,
       "Mode": "Static"
+    },
+    "Blur": true,
+    "Bloom": true,
+    "Bloom Color": {
+      "Main color": -33780,
+      "Secondary color": -16464385,
+      "Alpha": 99,
+      "Mode": "Mix"
     }
   },
   "Tracers": {
-    "enabled": false,
+    "enabled": true,
     "Color": {
       "Main color": -1,
       "Secondary color": -1,
@@ -771,8 +804,8 @@
     }
   },
   "Trail": {
-    "enabled": true,
-    "Mode": "Line",
+    "enabled": false,
+    "Mode": "Gradient",
     "Fade time": 2000.0,
     "Color": {
       "Main color": -1,
@@ -783,5 +816,15 @@
   },
   "Murder Finder": {
     "enabled": false
+  },
+  "Reverse Friends": {
+    "enabled": false,
+    "Range": 5.0
+  },
+  "Regen": {
+    "enabled": false,
+    "Mode": "Grim 1.17",
+    "Health": 19.0,
+    "Grim packets": 10.0
   }
 }
